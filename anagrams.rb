@@ -1,3 +1,5 @@
+# Nesse ponto, descobri que devo usar ? apenas no final de métodos
+# que retornam booleanos
 def is_anagram?(word1, word2)
   return word1.downcase.chars.sort == word2.downcase.chars.sort
 end
