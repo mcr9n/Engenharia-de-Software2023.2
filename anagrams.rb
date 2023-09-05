@@ -12,7 +12,9 @@ def lists_of_anagrams?(list)
                 list = list - [word2]
             end
         end
-        list_of_lists << anagrams_of_word
+        if anagrams_of_word.length > 0
+            list_of_lists << anagrams_of_word
+        end
     end
     return list_of_lists
 end
@@ -20,5 +22,5 @@ end
 result = lists_of_anagrams?(["cars", "for", "potatoes", "racs", "four", "scar", "creams", "scream"])
 result.each do |list|
     puts list
-    puts "and"
+    puts "----------"
 end
