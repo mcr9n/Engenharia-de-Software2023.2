@@ -27,7 +27,7 @@ class Dessert
     def delicious?
         return true
     end
-    
+
 end
 
 dessert1 = Dessert.new("cake", 100)
@@ -38,12 +38,12 @@ puts dessert1.delicious?
 puts dessert2.delicious?
 
 class JellyBean < Dessert
-    attr_accessor :flavor 
+    attr_accessor :flavor
     def initialize(name, calories, flavor)
         super(name, calories)
         @flavor = flavor
     end
-    def get_flavor 
+    def get_flavor
         return self.flavor
     end
     def set_flavor(new_flavor)
@@ -61,4 +61,4 @@ end
 jellybean1 = JellyBean.new("jellybean", 100, "black licorice")
 jellybean2 = JellyBean.new("jellybean", 100, "strawberry")
 puts jellybean1.delicious?
-puts jellybean2.delicious?
+puts jellybean2.delicious? #puts is a print with a new line
