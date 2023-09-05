@@ -1,3 +1,4 @@
+#Nesse ponto eu já sabia que os getters e setters são desnecessários
 class Dessert
     attr_accessor :name
     attr_accessor :calories
