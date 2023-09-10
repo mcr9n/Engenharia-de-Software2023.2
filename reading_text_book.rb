@@ -81,4 +81,5 @@
 #You can reopen any class at any time and add stuff to it
 #...in addition to extending/subclassing it
 #suppose we want to handle 5.euros.in(:rupees)
-
+#Object-oriented with no multiple-inheritance
+#
